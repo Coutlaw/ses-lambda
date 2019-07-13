@@ -1,6 +1,6 @@
 # SES-Lambda
 
-This is a simple handler for an AWS Lambda function to handle email events and send them using SES
+This is a simple handler for an AWS Lambda function to handle email events and send them using SES. The events are expected to pass through an API gateway in AWS which can be triggered with an HTTPS requests.
 
 # Usage
 Steps to prepare the handler for AWS Lambda
